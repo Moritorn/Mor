@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+:root {
+    --main-color: black;
+}
+h1 {
+margin: 0;
+padding: 0;
+}
+header nav .logo {
+    font-family: 'Anton', cursive;
+    font-size: 2rem
+    text-align: center
+}
+
+header nav .top-menu{
+    display:flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+header nav .top-menu li a {
+text-transform: uppercase;
+color: var(--main-color);
+text-decoration: none;
+border: 2px solid transparent;
+}
+
+header nav .top-menu li a:hover {
+    border: 2px solid var(rgb(69, 69, 255));
+}
